@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENGGUNAKAN UKURAN 14SP"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:id="@+id/teks1"
+        />
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENGGUNAKAN UKURAN 20SP"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/teks2"
+        android:layout_below="@id/teks1"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" DIGUNAKAN UNTUK HEADING"
+        android:typeface="serif"
+        android:layout_below="@id/teks2"
+        android:id="@+id/text3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text=" DIGUNAKAN UNTUK SUB HEADING "
+        android:typeface="monospace"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/text3"
+        android:id="@+id/text4"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        />
+
+</RelativeLayout>>

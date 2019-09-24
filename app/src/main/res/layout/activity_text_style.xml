@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextStyle">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TANPA MENGGUNAKAN STYLE"
+    android:textSize="14sp"
+    android:id="@+id/text1"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="MENGGUNAKAN STYLE BOLD"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENGGUNAKAN STYKE ITALIC"
+        android:layout_below="@id/text2"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
+        android:id="@id/text3"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        />
+
+</RelativeLayout>
